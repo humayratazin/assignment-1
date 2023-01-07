@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    font-family: 'Work sans';
+}
+header{
+    background-image: url('images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 131px;
+    
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    align-content: center;
+}
+    
+
+.banner{
+    inline-size: 525px;
+    overflow-wrap: break-word;
+    padding:216px 230px 364px 845px; 
+}   
+.banner-title{
+    color:#FFFFFF ;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.description{
+    color:#FFFFFF;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding:21px 25px 20px 25px;
+    border-style: none;
+    border-radius: 5px;
+}
+/* styles for section */
+.common-title{
+    font-size: 40px;
+    font-weight: 700;
+    color:#181717;
+    margin-bottom: 24px;
+    line-height:47px;
+}
+/* styles for resolution */
+.resolutions{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:50px 225px;
+    gap:150px;
+    width:1240px;
+}
+.resolutions-description{
+    font-size: 16px;
+    color:#444343;
+    margin-bottom: 16px;
+    line-height: 26px;
+}
+li{
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url('images/icons/check.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+/* styles for plan */
+.plans{
+    text-align: center;
+}
+.plans-container{
+    display:flex;
+    justify-content: space-around;
+    width:1240px;
+    align-items: center;
+    justify-content: space-between;
+    padding:50px 225px;
+    margin-left: 200px;
+    margin-bottom: 120px;
+}
+.plans-title{
+    font-size: 30px;
+    font-weight:700;
+    line-height: 35px;
+    margin-top:16px;
+    margin-bottom:16px;
+}
+.plans-description{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #737272
+}
+
+/* Gradient section */
+.gradient{
+    margin-bottom:130px;
+    display: flex;
+    justify-content: center;
+}
+.grad-img{
+    background-image: url('images/watch.png '), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 1140px 325px;
+
+    padding:60px 617px 60px 64px;
+    border-radius: 8px;
+}
+.grad-img-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color:#FFFFFF;
+    margin-bottom: 12px;
+    text-align: left;
+}
+.grad-description{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 15px;
+
+}
+.see-more{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 21px 36px 20px 36px;
+    color: #005FAC;
+    background: white;
+    border-radius: 5px;
+    border-style: none;
+    text-align:left;
+}
+
+/* about me section */
+
+.a-m{
+    background: rgb(30,20,232);
+    background: linear-gradient(90deg, rgba(30,20,232,1) 0%, rgba(68,68,247,1) 35%, rgba(144,152,189,1) 96%);
+    color:#FFFFFF;
+    padding:120px 148px 140px 165px;
+    width: 1240px;
+    margin-bottom:130px;
+    margin:0 auto;
+}
+.about-title{
+    color:white;
+    text-align: center;
+}
+.about-content{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:13px;
+}
+
+.about-info {
+    margin-left: 50px;
+    margin-bottom:50px;
+}
+.info-title {
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info-description {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* styles for footer section */
+footer{
+    background: #151414;
+    color:white;
+    display: flex;
+    justify-content: center;
+    gap:330px;
+    padding:130px 230px;
+    margin-top:130px;
+}
+.future-title{
+    font-size: 45px;
+    font-weight: 700;
+    line-height:53px;
+    margin-bottom:16px;
+}
+.future-description{
+    inline-size: 450px;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    line-height:26px;
+    margin-bottom: 24px;
+}
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.subs-title{
+    margin-bottom: 30px;
+    font-size:25px;
+    line-height:29px;
+}
+input{
+    height:40px;
+    width:300px;
+    background-color: #151414;
+    color: #F3F3F3;
+    font-size:18px;
+    border:1px solid #737272 ;
+    border-radius:5px;
+}
+
+.btn-subscribe{
+    font-size: 20px;
+    font-weight: 600;
+    line-height:24px;
+    color:#FFFFFF;
+    background-color: #005FAC;
+    padding:20px 36px;
+    border-radius:8px;
+    margin-top:16px;
+}
